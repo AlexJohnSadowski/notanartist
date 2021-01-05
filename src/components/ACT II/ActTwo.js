@@ -36,7 +36,7 @@ const ActTwo = () => {
         <div className="overlay">
           <div className="items" />
           <div className="items head">
-            <p>Gradobor RPG</p>
+            <p>Stop number 4 in the Land Of The Rising Sun</p>
           </div>
           <div className="items descr">
             <p>
@@ -46,25 +46,15 @@ const ActTwo = () => {
             </p>
           </div>
           <div className="items go">
-            <div className="multi-button">
-              <a
+            <a
                 href="https://gradobor-rpg.web.app/"
                 target="_blank"
                 rel="noreferrer"
                 class="buttonOne"
               >
-                Website
-              </a>
-              <a
-                href="https://github.com/AlexJohnSadowski/Gradobor-rpg"
-                target="_blank"
-                rel="noreferrer"
-                class="buttonOne"
-              >
-                GitHub
+                READ
               </a>
             </div>
-          </div>
         </div>
       </div>
       <div
@@ -75,7 +65,7 @@ const ActTwo = () => {
         <div className="overlay">
           <div className="items" />
           <div className="items head">
-            <p>Gradobor RPG</p>
+            <p>To Become An Astronaut</p>
           </div>
           <div className="items descr">
             <p>
@@ -85,25 +75,15 @@ const ActTwo = () => {
             </p>
           </div>
           <div className="items go">
-            <div className="multi-button">
               <a
                 href="https://gradobor-rpg.web.app/"
                 target="_blank"
                 rel="noreferrer"
                 class="buttonOne"
               >
-                Website
-              </a>
-              <a
-                href="https://github.com/AlexJohnSadowski/Gradobor-rpg"
-                target="_blank"
-                rel="noreferrer"
-                class="buttonOne"
-              >
-                GitHub
+                READ
               </a>
             </div>
-          </div>
         </div>
       </div>
       <div className="actTwo-collection">

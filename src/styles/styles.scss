@@ -520,9 +520,8 @@ nav {
   background-color: white;
   display: grid;
   grid-template-areas:
-    ". . t1"
-    ". . t2"
-    ". p2 ."
+    ".  . t1"
+    ". p2 t2"
     "p3 . t3";
 
   @media (max-width: 768px) {
@@ -631,8 +630,7 @@ nav {
 }
 
 .head {
-  font-size: 30px;
-
+  font-size: 26px;
   transform: translateY(40px);
   transition: all 0.7s;
 }
@@ -643,7 +641,7 @@ nav {
   opacity: 0;
   transform: translateY(40px);
   transition: all 0.7s;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 
 .go {
@@ -678,6 +676,13 @@ nav {
     transition-delay: 0.6s;
     opacity: 1;
   }
+}
+
+.buttonOne{
+  margin-bottom:5%;
+  border: 1px solid white;
+  padding:2%;
+  font-size:2vh;
 }
 
 .actTwo-collection {

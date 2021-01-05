@@ -27,8 +27,7 @@ import mountains from "../../images/mountains.jpg"
 import pkin from "../../images/pkin.jpg"
 import willow from "../../images/willow.jpg"
 import street from "../../images/street.jpg"
-
-
+import forrestalley from "../../images/forrestalley.jpg"
 
 const Images = [
   {
@@ -75,15 +74,15 @@ const Images = [
     thumbnailHeight: 200,
   },
   {
+    src: willow,
+    thumbnail: willow,
+    thumbnailWidth: 200,
+    thumbnailHeight: 300,
+  },
+  {
     src: tree,
     thumbnail: tree,
     thumbnailWidth: 300,
-    thumbnailHeight: 200,
-  },
-  {
-    src: tire,
-    thumbnail: tire,
-    thumbnailWidth: 280,
     thumbnailHeight: 200,
   },
   {
@@ -129,8 +128,8 @@ const Images = [
     thumbnailHeight: 200,
   },
   {
-    src: willow,
-    thumbnail: willow,
+    src: forrestalley,
+    thumbnail: forrestalley,
     thumbnailWidth: 200,
     thumbnailHeight: 300,
   },
