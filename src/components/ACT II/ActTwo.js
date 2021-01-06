@@ -1,8 +1,17 @@
-import React from "react"
+import React, {useEffect} from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
+
+import { gsap } from "gsap"
+import { ScrollTrigger } from "gsap/ScrollTrigger"
+
+
 const ActTwo = () => {
+
+
+
+  
   const data = useStaticQuery(graphql`
     query {
       one: file(relativePath: { eq: "aush.jpg" }) {

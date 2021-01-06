@@ -5,7 +5,6 @@ import Img from "gatsby-image"
 import { gsap } from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
 
-gsap.registerPlugin(ScrollTrigger)
 
 const Banner = () => {
   useEffect(() => {
