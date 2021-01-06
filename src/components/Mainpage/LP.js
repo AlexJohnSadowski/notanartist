@@ -1,8 +1,48 @@
-import React from "react"
+import React, { useEffect } from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
+import { gsap } from "gsap"
+import { ScrollTrigger } from "gsap/ScrollTrigger"
+
+gsap.registerPlugin(ScrollTrigger)
+
 const Banner = () => {
+  useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger)
+
+    gsap.fromTo(
+      ".lp-hero",
+      { opacity: 0 },
+      {
+        duration: 3,
+        opacity: 1,
+        delay:3,
+      }
+    )
+
+    gsap.fromTo(
+      ".lp-whitey",
+      {x:"50%"},
+      {
+        duration: 3,
+        delay:1,
+        x:"100%",
+      }
+    )
+      
+    gsap.fromTo(
+      ".lp-blackey",
+      {x:"-50%"},
+      {
+        duration: 4,
+        delay:1,
+        x:"-100%"
+      }
+    )
+
+  })
+
   const data = useStaticQuery(graphql`
     query {
       two: file(relativePath: { eq: "1.jpg" }) {
@@ -16,6 +56,9 @@ const Banner = () => {
   `)
   return (
     <>
+    <div className="lp-whitey"></div>
+   <div className="lp-blackey"></div> 
+
       <div className="lp-hero">
         <Img fluid={data.two.childImageSharp.fluid} />
       </div>
