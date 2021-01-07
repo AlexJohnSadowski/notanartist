@@ -8,7 +8,68 @@ import { ScrollTrigger } from "gsap/ScrollTrigger"
 
 
 const ActTwo = () => {
+  useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger)
 
+    gsap.fromTo(
+      ".actTwo-title",
+      { opacity: 0},
+      {
+        duration: 3,
+        opacity: 1,
+        scrollTrigger: {trigger: '.actTwo-title', markers: false, start: 'top 60%'}
+      }
+    )
+
+    gsap.fromTo(
+      ".actOne-subtitle",
+      { opacity: 0},
+      {
+        duration: 3,
+        opacity: 1,
+        scrollTrigger: {trigger: '.actTwo-subtitle', markers: false, start: 'top 60%'}
+      }
+    )
+
+    gsap.fromTo(
+      ".card-one",
+      { opacity: 0, y:0},
+      {y:100,
+        duration: 2,
+        opacity: 1,
+        scrollTrigger: {trigger: '.card-one', markers: false, start: 'top 60%'}
+      }
+    )
+
+    gsap.fromTo(
+      ".card-two",
+      { opacity: 0, x:0},
+      {
+        x:100,
+        duration: 2,
+        opacity: 1,
+        scrollTrigger: {trigger: '.card-two', markers: false, start: 'top 60%'}
+      }
+    )
+    gsap.fromTo(
+      ".actTwo-collection",
+      { opacity: 0, x:0},
+      {x:-100,
+        duration: 2,
+        opacity: 1,
+        scrollTrigger: {trigger: '.actTwo-collection', markers: false, start: 'top 60%'}
+      }
+    )
+    gsap.fromTo(
+      ".actOne-smalltxt",
+      { opacity: 0},
+      {
+        duration: 3,
+        opacity: 1,
+        scrollTrigger: {trigger: '.actOne-smalltxt', markers: false, start: 'top 90%'}
+      }
+    )
+  })
 
 
   
