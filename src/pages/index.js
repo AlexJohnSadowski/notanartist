@@ -16,7 +16,7 @@ const IndexPage = () => (
   <>
     <Helmet>
       <meta charSet="utf-8" />
-      <title>Not An Artist</title>
+      <title>Not An Artist - Monsieur Voland</title>
       <meta
         name="description"
         content="Definitely not an artistic website. I'm definitely not an artist, photographer, writer or whatsoever. Trust me."
