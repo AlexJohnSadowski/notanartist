@@ -15,7 +15,7 @@ const TheEnd = () => {
         opacity: 1,
         scrollTrigger: {
           trigger: ".flex-theend",
-          markers: true,
+          markers: false,
           start: "bottom",
         },
       }
@@ -29,7 +29,7 @@ const TheEnd = () => {
         opacity: 1,
         scrollTrigger: {
           trigger: ".flex-theend",
-          markers: true,
+          markers: false,
           start: "bottom",
         },
       }

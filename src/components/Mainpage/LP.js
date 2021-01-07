@@ -61,7 +61,7 @@ const Banner = () => {
       <div className="lp-hero">
         <Img fluid={data.two.childImageSharp.fluid} />
       </div>
-      <div className="lp-bottomtitle">art and alcoholism</div>
+      <h1><div className="lp-bottomtitle">art and alcoholism</div></h1>
     </>
   )
 }
