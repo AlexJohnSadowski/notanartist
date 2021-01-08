@@ -14,6 +14,7 @@ import TheEnd from "../components/The End/TheEnd"
 
 const IndexPage = () => (
   <>
+  <div className="wrapper">
     <Helmet>
       <meta charSet="utf-8" />
       <title>Not An Artist - Monsieur Voland</title>
@@ -32,6 +33,7 @@ const IndexPage = () => (
     <ActTwo />
     <ActThree />
     <TheEnd />
+    </div>
   </>
 )
 

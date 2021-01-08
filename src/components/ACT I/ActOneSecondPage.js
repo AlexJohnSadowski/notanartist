@@ -26,9 +26,9 @@ const ActOneSecondPage = () => {
 
     gsap.fromTo(
       ".actOne-photoFive",
-      { opacity: 0, x:0 },
+      { opacity: 0, x:-100 },
       {
-        x:100,
+        x:0,
         duration: 3,
         opacity: 1,
         scrollTrigger: {
@@ -41,9 +41,9 @@ const ActOneSecondPage = () => {
 
     gsap.fromTo(
       ".actOne-photoSix",
-      { opacity: 0, x: 0 },
+      { opacity: 0, x: 100 },
       {
-        x:-100,
+        x:0,
         duration: 3,
         opacity: 1,
         scrollTrigger: {

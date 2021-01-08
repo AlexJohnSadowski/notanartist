@@ -33,8 +33,8 @@ const ActTwo = () => {
 
     gsap.fromTo(
       ".card-one",
-      { opacity: 0, y:0},
-      {y:100,
+      { opacity: 0, y:-100},
+      {y:0,
         duration: 2,
         opacity: 1,
         scrollTrigger: {trigger: '.card-one', markers: false, start: 'top 60%'}
@@ -43,9 +43,9 @@ const ActTwo = () => {
 
     gsap.fromTo(
       ".card-two",
-      { opacity: 0, x:0},
+      { opacity: 0, x:-100},
       {
-        x:100,
+        x:0,
         duration: 2,
         opacity: 1,
         scrollTrigger: {trigger: '.card-two', markers: false, start: 'top 60%'}
@@ -53,8 +53,8 @@ const ActTwo = () => {
     )
     gsap.fromTo(
       ".actTwo-collection",
-      { opacity: 0, x:0},
-      {x:-100,
+      { opacity: 0, x:100},
+      {x:0,
         duration: 2,
         opacity: 1,
         scrollTrigger: {trigger: '.actTwo-collection', markers: false, start: 'top 60%'}

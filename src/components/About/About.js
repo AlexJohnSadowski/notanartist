@@ -11,9 +11,9 @@ const About = () => {
 
     gsap.fromTo(
       ".about-title",
-      { opacity: 0, x: 0 },
+      { opacity: 0, x: 100 },
       {
-        x: -100,
+        x: 0,
         duration: 3,
         opacity: 1,
         scrollTrigger: {
@@ -40,9 +40,9 @@ const About = () => {
 
     gsap.fromTo(
       ".about-img",
-      { opacity: 0, x: 0 },
+      { opacity: 0, x: -100 },
       {
-        x: 100,
+        x: 0,
         duration: 3,
         opacity: 1,
         scrollTrigger: {
@@ -55,9 +55,9 @@ const About = () => {
 
     gsap.fromTo(
       ".about-textOne",
-      { opacity: 0, x: 0 },
+      { opacity: 0, x: 100 },
       {
-        x: 100,
+        x: 0,
         duration: 3,
         opacity: 1,
         scrollTrigger: {
@@ -69,9 +69,9 @@ const About = () => {
     )
     gsap.fromTo(
       ".about-textTwo",
-      { opacity: 0, x: 0 },
+      { opacity: 0, x: -100 },
       {
-        x: -100,
+        x: 0,
         duration: 3,
         opacity: 1,
         scrollTrigger: {

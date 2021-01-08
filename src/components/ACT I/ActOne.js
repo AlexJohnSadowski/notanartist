@@ -31,8 +31,8 @@ const ActOne = () => {
 
     gsap.fromTo(
       ".actOne-photoOne",
-      { opacity: 0, x:0},
-      {x:100,
+      { opacity: 0, x:-100},
+      {x:0,
         duration: 3,
         opacity: 1,
         scrollTrigger: {trigger: '.actOne-photoOne', markers: false, start: 'top 60%'}
@@ -50,8 +50,8 @@ const ActOne = () => {
     )
     gsap.fromTo(
       ".actOne-photoThree",
-      { opacity: 0, x:0},
-      {x:-100,
+      { opacity: 0, x:50},
+      {x:0,
         duration: 3,
         opacity: 1,
         scrollTrigger: {trigger: '.actOne-photoThree', markers: false, start: 'top 60%'}
