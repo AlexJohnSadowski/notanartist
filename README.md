@@ -1,8 +1,8 @@
-## Quorum - Fashion Atelier
-### https://quorum-fashion.netlify.app/
+## :sparkles: Definitely not an artistic website!:sparkles:
+### https://notanartist.netlify.app/
 
-Project made for a fashion atelier made with  Gatsby. Urban and city lights as the main theme. The work is still on progress as I want to add a proper back-end for the shop itself + the payments system.
+I decided that in the future I will need a little bit more of my own space in order to publish all of my "artsy" stuff. Didn't want to mix it with my professional IT website, so here it is! A simple, separate Gatsby website where I will store all my junk. It's still not entirely finished, but it already looks like it was supposed to look according to my master design figma plan.
 
-The project is still in progress, I need to still add better grids for RWD + adjust some parts of the code for other browsers and add some extra content, but you can already see the demo ;)
+Written with love and Gatsby :heart:
 
 Enjoy!
